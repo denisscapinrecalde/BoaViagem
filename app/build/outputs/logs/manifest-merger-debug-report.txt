@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:2:1-2
 		INJECTED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Denis\.android\build-cache\e24fadf59c562614a6731936aab0468489fa33ab\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Denis\.android\build-cache\3511bc5f8ec90c851cc606a3505e5956d16cb2ab\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Denis\.android\build-cache\c1805d9c14ac59ec8050df1068441447317e4332\output\AndroidManifest.xml:25:5-20
@@ -60,9 +60,17 @@ ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:20:9-
 	android:name
 		ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:20:19-49
 activity#br.com.denis.boaviagem.GastoActivity
-ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:21:9-60
+ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:21:9-51
 	android:name
 		ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:21:19-48
+activity#br.com.denis.boaviagem.ViagemListActivity
+ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:22:9-56
+	android:name
+		ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:22:19-53
+activity#br.com.denis.boaviagem.GastoListActivity
+ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:23:9-64
+	android:name
+		ADDED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml:23:19-52
 uses-sdk
 INJECTED from D:\Android\Workspace\BoaViagem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Denis\.android\build-cache\e24fadf59c562614a6731936aab0468489fa33ab\output\AndroidManifest.xml:21:5-23:78

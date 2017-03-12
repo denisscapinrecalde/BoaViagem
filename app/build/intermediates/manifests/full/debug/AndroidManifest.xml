@@ -25,6 +25,8 @@
         <activity android:name="br.com.denis.boaviagem.DashBoardActivity" />
         <activity android:name="br.com.denis.boaviagem.ViagemActivity" />
         <activity android:name="br.com.denis.boaviagem.GastoActivity" />
+        <activity android:name="br.com.denis.boaviagem.ViagemListActivity" />
+        <activity android:name="br.com.denis.boaviagem.GastoListActivity" />
     </application>
 
 </manifest>

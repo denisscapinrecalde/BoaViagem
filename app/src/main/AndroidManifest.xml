@@ -19,7 +19,8 @@
         <activity android:name=".DashBoardActivity" />
         <activity android:name=".ViagemActivity" />
         <activity android:name=".GastoActivity" />
-        <activity android:name=".ViagemListActivity"></activity>
+        <activity android:name=".ViagemListActivity" />
+        <activity android:name=".GastoListActivity"></activity>
     </application>
 
 </manifest>

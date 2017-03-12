@@ -152,6 +152,10 @@
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_viagem.xml",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\layout\\lista_viagem.xml"
+    },
+    {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
@@ -170,6 +174,10 @@
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_gasto.xml",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\layout\\lista_gasto.xml"
     },
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",

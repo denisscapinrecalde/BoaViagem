@@ -2329,6 +2329,7 @@ containing a value of this type.
         public static final int customPanel=0x7f0b003f;
         public static final int decor_content_parent=0x7f0b004d;
         public static final int default_activity_button=0x7f0b0032;
+        public static final int destino=0x7f0b007b;
         public static final int disableHome=0x7f0b0015;
         public static final int edit_query=0x7f0b0051;
         public static final int end=0x7f0b0023;
@@ -2342,6 +2343,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f0b0027;
         public static final int image=0x7f0b0031;
         public static final int info=0x7f0b0071;
+        public static final int lazer=0x7f0b007d;
         public static final int line1=0x7f0b0076;
         public static final int line3=0x7f0b0078;
         public static final int listMode=0x7f0b0012;
@@ -2350,6 +2352,7 @@ containing a value of this type.
         public static final int middle=0x7f0b0024;
         public static final int minhas_viagens=0x7f0b0060;
         public static final int multiply=0x7f0b001c;
+        public static final int negocios=0x7f0b007e;
         public static final int never=0x7f0b0028;
         public static final int none=0x7f0b0011;
         public static final int normal=0x7f0b0013;
@@ -2402,6 +2405,7 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0b003d;
         public static final int textSpacerNoTitle=0x7f0b003c;
         public static final int time=0x7f0b006f;
+        public static final int tipoViagem=0x7f0b007c;
         public static final int title=0x7f0b0035;
         public static final int titleDividerNoCustom=0x7f0b0044;
         public static final int title_template=0x7f0b0042;
@@ -2509,15 +2513,19 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060021;
         public static final int configuracoes=0x7f060022;
-        public static final int entrar=0x7f060023;
-        public static final int erro_autenticacao=0x7f060024;
-        public static final int minhas_viagens=0x7f060025;
-        public static final int nova_viagem=0x7f060026;
-        public static final int novo_gasto=0x7f060027;
+        public static final int destino=0x7f060023;
+        public static final int entrar=0x7f060024;
+        public static final int erro_autenticacao=0x7f060025;
+        public static final int lazer=0x7f060026;
+        public static final int minhas_viagens=0x7f060027;
+        public static final int negocios=0x7f060028;
+        public static final int nova_viagem=0x7f060029;
+        public static final int novo_gasto=0x7f06002a;
         public static final int search_menu_title=0x7f060013;
-        public static final int senha=0x7f060028;
+        public static final int senha=0x7f06002b;
         public static final int status_bar_notification_info_overflow=0x7f060014;
-        public static final int usuario=0x7f060029;
+        public static final int tipo_da_viagem=0x7f06002c;
+        public static final int usuario=0x7f06002d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08009f;

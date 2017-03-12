@@ -1,5 +1,6 @@
 package br.com.denis.boaviagem;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,5 +19,6 @@ public class DashBoardActivity extends AppCompatActivity {
         TextView textView = (TextView) view;
         String opcao = textView.getText().toString();
         Toast.makeText(this, "Opção: " + opcao, Toast.LENGTH_SHORT).show();
+        //startActivity(new Intent(this, NovaViagemActivity.class));
     }
 }

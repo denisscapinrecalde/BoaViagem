@@ -45,6 +45,35 @@
 
         </RadioGroup>
 
+        <TableRow>
+            <TextView android:layout_gravity="center"
+            android:text="@string/data_da_chegada"/>
+            <TextView android:layout_gravity="center"
+                android:text="@string/data_da_saida"/>
+        </TableRow>
+
+        <TableRow>
+            <Button android:id="@+id/dataChegada"
+                android:onClick="selecionarData"
+                android:text="@string/selecione"/>
+            <Button android:id="@+id/dataSaida"
+                android:onClick="selecionarData"
+                android:text="@string/selecione"/>
+        </TableRow>
+
+        <TextView android:text="@string/orcamento"/>
+        <EditText android:id="@+id/orcamento"
+                    android:inputType="numberDecimal"/>
+
+        <TableRow>
+            <TextView android:text="@string/quantidade_de_pessoas"/>
+            <EditText android:id="@+id/quantidadePessoas"
+                android:inputType="number"/>
+        </TableRow>
+
+        <Button android:onClick="salvarViagem"
+                        android:text="@string/salvar"/>
+
     </TableLayout>
 
 </ScrollView>

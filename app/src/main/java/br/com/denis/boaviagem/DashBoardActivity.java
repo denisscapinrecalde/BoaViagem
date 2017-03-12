@@ -18,7 +18,12 @@ public class DashBoardActivity extends AppCompatActivity {
     public void selecionarOpcao(View view) {
         TextView textView = (TextView) view;
         String opcao = textView.getText().toString();
-        Toast.makeText(this, "Opção: " + opcao, Toast.LENGTH_SHORT).show();
-        //startActivity(new Intent(this, NovaViagemActivity.class));
+        switch (view.getId()){
+            case R.id.nova_viagem:
+                startActivity(new Intent(this, NovaViagemActivity.class));
+                break;
+            default:
+                Toast.makeText(this, "Opção: " + opcao, Toast.LENGTH_SHORT).show();
+        }
     }
 }

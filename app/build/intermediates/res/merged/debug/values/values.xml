@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="categoria_gasto">
+        <item>Alimentação</item>
+        <item>Combustível</item>
+        <item>Transporte</item>
+        <item>Hospedagem</item>
+        <item>Outros</item>
+    </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -441,13 +448,18 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Boa Viagem</string>
+    <string name="categoria">Categoria</string>
     <string name="configuracoes">Configurações</string>
+    <string name="data">Data</string>
     <string name="data_da_chegada">Data da Chegada</string>
     <string name="data_da_saida">Data da Saída</string>
+    <string name="descricao">Descrição</string>
     <string name="destino">Destino</string>
     <string name="entrar">Entrar</string>
     <string name="erro_autenticacao">Falha de autenticação</string>
+    <string name="gastei">Gastei!</string>
     <string name="lazer">Lazer</string>
+    <string name="local">Local</string>
     <string name="minhas_viagens">Minhas Viagens</string>
     <string name="negocios">Negócios</string>
     <string name="nova_viagem">Nova Viagem</string>
@@ -461,6 +473,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tipo_da_viagem">Tipo da Viagem</string>
     <string name="usuario">Usuário</string>
+    <string name="valor">Valor</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

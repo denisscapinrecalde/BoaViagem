@@ -23,7 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name="br.com.denis.boaviagem.DashBoardActivity" />
-        <activity android:name="br.com.denis.boaviagem.NovaViagemActivity" />
+        <activity android:name="br.com.denis.boaviagem.ViagemActivity" />
+        <activity android:name="br.com.denis.boaviagem.GastoActivity" />
     </application>
 
 </manifest>

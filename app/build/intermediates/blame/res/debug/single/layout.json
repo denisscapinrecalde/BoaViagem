@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gasto.xml",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\layout\\gasto.xml"
+    },
+    {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -38,10 +42,6 @@
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nova_viagem.xml",
-        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\layout\\nova_viagem.xml"
     },
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -122,6 +122,10 @@
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viagem.xml",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\layout\\viagem.xml"
     },
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",

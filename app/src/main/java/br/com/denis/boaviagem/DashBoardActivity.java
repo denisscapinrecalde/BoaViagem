@@ -20,8 +20,10 @@ public class DashBoardActivity extends AppCompatActivity {
         String opcao = textView.getText().toString();
         switch (view.getId()){
             case R.id.nova_viagem:
-                startActivity(new Intent(this, NovaViagemActivity.class));
+                startActivity(new Intent(this, ViagemActivity.class));
                 break;
+            case R.id.novo_gasto:
+                startActivity(new Intent(this, GastoActivity.class));
             default:
                 Toast.makeText(this, "Opção: " + opcao, Toast.LENGTH_SHORT).show();
         }

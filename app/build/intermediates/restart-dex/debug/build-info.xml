@@ -6,33 +6,30 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489333211004"
+    timestamp="1489353873483"
     token="-4256887671900723995"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="200" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="37" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
-    <artifact
-        location="D:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
     <artifact
         location="D:\Android\Workspace\BoaViagem\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1489333080800"
+        timestamp="1489350028889"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -73,11 +70,27 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489333211004"
+        timestamp="1489353652283"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1489353769815"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1489353873483"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Android\Workspace\BoaViagem\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

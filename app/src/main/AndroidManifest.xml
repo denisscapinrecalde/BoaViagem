@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DashBoardActivity" />
-        <activity android:name=".NovaViagemActivity"></activity>
+        <activity android:name=".ViagemActivity" />
+        <activity android:name=".GastoActivity"></activity>
     </application>
 
 </manifest>

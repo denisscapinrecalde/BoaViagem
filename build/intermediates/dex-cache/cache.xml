@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="24ad4a4d28169a7cb8f4610e2d700a899279c944">
+        <dex dex="D:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebf8cdab7ca2cd208b0eded6770950545770cee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a080a5832de3b24269fe02e73be70eb298e0ed1e\classes.dex" />
+    </item>
+
+</items>

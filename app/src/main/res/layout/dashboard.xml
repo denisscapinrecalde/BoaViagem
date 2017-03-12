@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.denis.boaviagem.DashBoardActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/novo_gasto"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="50dp"
+                android:clickable="true"
+                android:drawableTop="@drawable/bank"
+                android:onClick="selecionarOpcao"
+                android:text="@string/novo_gasto"
+                />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nova_viagem"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/novo_gasto"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/briefcase"
+            android:onClick="selecionarOpcao"
+            android:text="@string/nova_viagem"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/minhas_viagens"
+                android:clickable="true"
+                android:drawableTop="@drawable/compass"
+                android:onClick="selecionarOpcao"
+                android:text="@string/minhas_viagens"
+                android:layout_below="@+id/novo_gasto"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="120dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/configuracoes"
+                android:layout_alignBottom="@+id/minhas_viagens"
+                android:layout_alignRight="@+id/nova_viagem"
+                android:clickable="true"
+                android:drawableTop="@drawable/settings"
+                android:onClick="selecionarOpcao"
+                android:text="@string/configuracoes"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

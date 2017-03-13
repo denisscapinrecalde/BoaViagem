@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_brief.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\list_brief.png"
+    },
+    {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable\\abc_vector_test.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_controller.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\list_controller.png"
     },
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",

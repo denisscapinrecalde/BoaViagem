@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
-        "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\e24fadf59c562614a6731936aab0468489fa33ab\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",

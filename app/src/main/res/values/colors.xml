@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#8b0000</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorText">#FFFFFF</color>
+    <color name="titulo">#88010a</color>
+    <color name="categoria_alimentacao">#f89fa0</color>
+    <color name="categoria_hospedagem">#dc6f74</color>
+    <color name="categoria_transporte">#cc000a</color>
+    <color name="categoria_outros">#d5acad</color>
 </resources>

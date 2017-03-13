@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f5e9aa2d1dcd9fd9d02cd64407ddeb615cc29326">
-        <dex dex="D:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebf8cdab7ca2cd208b0eded6770950545770cee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="D:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a080a5832de3b24269fe02e73be70eb298e0ed1e\classes.dex" />
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0efe135e29ee2ce3a10cd2033d660d06a3194607\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ed6d87d7e85250fd622f0608f7648811283dcc4">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_70ab7a4d7de263bf526fd9e6b2f5772aeef4c37a\classes.dex" />
     </item>
 
 </items>

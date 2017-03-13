@@ -3,7 +3,7 @@
     package="br.com.denis.boaviagem.test" >
 
     <uses-sdk
-        android:minSdkVersion="10"
+        android:minSdkVersion="22"
         android:targetSdkVersion="25" />
 
     <instrumentation

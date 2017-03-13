@@ -3,6 +3,9 @@ package br.com.denis.boaviagem;
 import android.app.ListActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -25,9 +28,6 @@ public class GastoListActivity extends ListActivity implements AdapterView.OnIte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listarGastos()));
-        //ListView listView = getListView();
-        //listView.setOnItemClickListener(this);
         String[] de = {
                 "data", "descricao", "valor", "categoria"
         };
@@ -38,6 +38,28 @@ public class GastoListActivity extends ListActivity implements AdapterView.OnIte
         adapter.setViewBinder(new GastoViewBinder());
         setListAdapter(adapter);
         getListView().setOnItemClickListener(this);
+        registerForContextMenu(getListView());
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v,
+                                    ContextMenu.ContextMenuInfo menuInfo) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.gasto_menu, menu);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.remover) {
+            AdapterView.AdapterContextMenuInfo info =
+                    (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+            gastos.remove(info.position);
+            getListView().invalidateViews();
+            dataAnterior = "";
+            Toast.makeText(this, "Remover do banco", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        return super.onContextItemSelected(item);
     }
 
     private class GastoViewBinder implements SimpleAdapter.ViewBinder {

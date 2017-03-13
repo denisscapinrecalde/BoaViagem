@@ -24,6 +24,21 @@
     <string name="local">Local</string>
     <string name="gastei">Gastei!</string>
     <string name="categoria">Categoria</string>
+    <string name="sair">Sair</string>
+    <string name="remover">Remover</string>
+    <string name="editar">Editar</string>
+    <string name="gastos_realizados">Gastos Realizados</string>
+    <string name="opcoes">Opções</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="confirmacao_exclusao_viagem">a viagem?</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="modo_viagem_sumario">Modo viagem sumário</string>
+    <string name="modo_viagem">Modo Viagem</string>
+    <string name="informe_valor_limite">Informe o valor limite</string>
+    <string name="valor_limite_sumario">Valor limite sumário</string>
+    <string name="valor_limite">Valor Limite</string>
+
 
     <string-array name="categoria_gasto">
         <item>Alimentação</item>

@@ -1,18 +1,23 @@
 package br.com.denis.boaviagem;
 
+import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
-public class GastoActivity extends AppCompatActivity {
+public class GastoActivity extends Activity {
 
     private int ano, mes, dia;
     private Button dataGasto;
@@ -35,6 +40,20 @@ public class GastoActivity extends AppCompatActivity {
                 ArrayAdapter.createFromResource(this, R.array.categoria_gasto, android.R.layout.simple_spinner_item);
         categoria = (Spinner) findViewById(R.id.categoria);
         categoria.setAdapter(adapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.gasto_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onMenuItemSelected(int featureId,
+                                      MenuItem item) {
+        Toast.makeText(this, "Remover Gasto", Toast.LENGTH_SHORT).show();
+        return true;
     }
 
 

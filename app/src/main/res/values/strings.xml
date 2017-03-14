@@ -31,14 +31,36 @@
     <string name="opcoes">Opções</string>
     <string name="sim">Sim</string>
     <string name="nao">Não</string>
-    <string name="confirmacao_exclusao_viagem">a viagem?</string>
+    <string name="confirmacao_exclusao_viagem">Deseja excluir a viagem?</string>
     <string name="preferencias">Preferencias</string>
     <string name="modo_viagem_sumario">Modo viagem sumário</string>
     <string name="modo_viagem">Modo Viagem</string>
     <string name="informe_valor_limite">Informe o valor limite</string>
     <string name="valor_limite_sumario">Valor limite sumário</string>
     <string name="valor_limite">Valor Limite</string>
+    <string name="manter_conectado">Mantenha-me conectado</string>
+    <string name="registro_salvo">Registro salvo com sucesso</string>
+    <string name="erro_salvar">Erro ao salvar informação</string>
+    <string name="viagem_excluida_sucesso">Viagem removida com sucesso</string>
 
+    <!-- ViagemVO -->
+    <string name="imagem_vo">imagem</string>
+    <string name="total_vo">total</string>
+    <string name="gasto_total_vo">Gasto Total R$ </string>
+    <string name="barra_progresso_vo">barraProgresso</string>
+    <string name="data_vo">data</string>
+    <string name="destino_vo">destino</string>
+    <string name="id_vo">id</string>
+
+
+
+    <!-- Categorias -->
+    <string name="alimentacao">Alimentação</string>
+    <string name="combustivel">Combustível</string>
+    <string name="transporte">Transporte</string>
+    <string name="hospedagem">Hospedagem</string>
+    <string name="outros">Outros</string>
+    <string name="gasto_excluida_sucesso">Gasto removido com sucesso</string>
 
     <string-array name="categoria_gasto">
         <item>Alimentação</item>

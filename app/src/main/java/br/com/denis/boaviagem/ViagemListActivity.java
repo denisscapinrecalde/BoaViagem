@@ -4,17 +4,29 @@ import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ProgressBar;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import br.com.denis.boaviagem.dao.BoaViagemDAO;
+import br.com.denis.boaviagem.domain.Viagem;
+import br.com.denis.boaviagem.helper.Constantes;
+import br.com.denis.boaviagem.helper.DatabaseHelper;
 
 public class ViagemListActivity extends ListActivity implements AdapterView.OnItemClickListener, DialogInterface.OnClickListener,SimpleAdapter.ViewBinder  {
 
@@ -22,12 +34,24 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
     private AlertDialog alertDialog;
     private int viagemSelecionada;
     private AlertDialog dialogConfirmacao;
+    private SimpleDateFormat dateFormat;
+    private Double valorLimite;
+    BoaViagemDAO dao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        String[] de = {"imagem", "destino", "data", "total", "barraProgresso"};
+        dao = new BoaViagemDAO(this);
+
+        dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        SharedPreferences preferencias =
+                PreferenceManager.getDefaultSharedPreferences(this);
+        String valor = preferencias.getString("valor_limite", "-1");
+        valorLimite = Double.valueOf(valor);
+
+        String[] de = {getText(R.string.imagem_vo).toString(), getText(R.string.destino_vo).toString(),
+                getText(R.string.data_vo).toString(), getText(R.string.total_vo).toString(), getText(R.string.barra_progresso_vo).toString()};
         int[] para = {
                 R.id.tipoViagem, R.id.destino, R.id.data, R.id.valor, R.id.barraProgresso
         };
@@ -47,24 +71,33 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
 
     @Override
     public void onClick(DialogInterface dialog, int item) {
+        Intent intent;
+        String id =
+                (String) viagens.get(viagemSelecionada).get(getText(R.string.id_vo).toString());
         switch (item) {
             case 0:
-                startActivity(new Intent(this,
-                        ViagemActivity.class));
+                intent = new Intent(this, ViagemActivity.class);
+                intent.putExtra(Constantes.VIAGEM_ID, id);
+                startActivity(intent);
                 break;
             case 1:
-                startActivity(new Intent(this,
-                        GastoActivity.class));
+                intent = new Intent(this, GastoActivity.class);
+                intent.putExtra(Constantes.VIAGEM_ID, id);
+                startActivity(intent);
                 break;
             case 2:
-                startActivity(new Intent(this,GastoListActivity.class));
+                intent = new Intent(this, GastoListActivity.class);
+                intent.putExtra(Constantes.VIAGEM_ID, id);
+                startActivity(intent);
                 break;
             case 3:
                 dialogConfirmacao.show();
                 break;
             case DialogInterface.BUTTON_POSITIVE:
                 viagens.remove(viagemSelecionada);
+                dao.removerViagem(new Viagem(Long.parseLong(id)));
                 getListView().invalidateViews();
+                Toast.makeText(this, R.string.viagem_excluida_sucesso, Toast.LENGTH_SHORT).show();
                 break;
             case DialogInterface.BUTTON_NEGATIVE:
                 dialogConfirmacao.dismiss();
@@ -93,73 +126,31 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
     }
 
     private List<Map<String, Object>> listarViagens() {
-            viagens = new ArrayList<Map<String, Object>>();
-            Map<String, Object> item =
-                    new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "São Paulo");
-            item.put("data", "02/02/2012 a 04/02/2012");
-            item.put("total", "Gasto total R$ 314,98");
-            item.put("barraProgresso",
-                    new Double[]{ 500.0, 450.0, 314.98});
+        viagens = criarListViewViagens(dao.listarViagens());
+        return viagens;
+    }
+
+    private List<Map<String, Object>> criarListViewViagens(List<Viagem> listaViagens){
+        List<Map<String, Object>> viagens = new ArrayList<Map<String, Object>>();
+        for (Viagem viagem : listaViagens) {
+            Map<String, Object> item = new HashMap<String, Object>();
+            item.put(getText(R.string.id_vo).toString(), viagem.getId().toString());
+            if (viagem.getTipoViagem() == Constantes.VIAGEM_LAZER) {
+                item.put(getText(R.string.imagem_vo).toString(), R.drawable.lazer);
+            } else {
+                item.put(getText(R.string.imagem_vo).toString(), R.drawable.negocios);
+            }
+            item.put(DatabaseHelper.Viagem.DESTINO, viagem.getDestino());
+            item.put(getText(R.string.data_vo).toString(),
+                    dateFormat.format(viagem.getDataChegada()) + " a " + dateFormat.format(viagem.getDataSaida()));
+            double totalGasto = dao.sumGastoViagem(viagem);
+            item.put(getText(R.string.total_vo).toString(), getText(R.string.gasto_total_vo).toString() + totalGasto);
+            double alerta = viagem.getOrcamento() * valorLimite / 100;
+            Double [] valores = new Double[] { viagem.getOrcamento(), alerta, totalGasto };
+            item.put(getText(R.string.barra_progresso_vo).toString(), valores);
             viagens.add(item);
-            item = new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "Maceió");
-            item.put("data", "14/05/2012 a 22/05/2012");
-            item.put("total", "Gasto total R$ 25834,67");
-            item.put("barraProgresso",
-                new Double[]{ 50000.0, 45000.0, 25834.67});
-            viagens.add(item);
-            item = new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "Rio de Janeiro");
-            item.put("data", "14/08/2014 a 22/09/2014");
-            item.put("total", "Gasto total R$ 1834,67");
-        item.put("barraProgresso",
-                new Double[]{ 5000.0, 4500.0, 1834.67});
-            viagens.add(item);
-            item = new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "Bahia");
-            item.put("data", "14/05/2016 a 22/05/2016");
-            item.put("total", "Gasto total R$ 4834,67");
-        item.put("barraProgresso",
-                new Double[]{ 5000.0, 4500.0, 4834.67});
-            viagens.add(item);
-            item = new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "Bahia");
-            item.put("data", "14/05/2016 a 22/05/2016");
-            item.put("total", "Gasto total R$ 4834,67");
-        item.put("barraProgresso",
-                new Double[]{ 5000.0, 4500.0, 4834.67});
-            viagens.add(item);
-        item = new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "Bahia");
-            item.put("data", "14/05/2016 a 22/05/2016");
-            item.put("total", "Gasto total R$ 4834,67");
-        item.put("barraProgresso",
-                new Double[]{ 5000.0, 4500.0, 4834.67});
-            viagens.add(item);
-        item = new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "Bahia");
-            item.put("data", "14/05/2016 a 22/05/2016");
-            item.put("total", "Gasto total R$ 4834,67");
-        item.put("barraProgresso",
-                new Double[]{ 5000.0, 4500.0, 4834.67});
-            viagens.add(item);
-        item = new HashMap<String, Object>();
-            item.put("imagem", R.drawable.briefcase);
-            item.put("destino", "Bahia");
-            item.put("data", "14/05/2016 a 22/05/2016");
-            item.put("total", "Gasto total R$ 4834,67");
-        item.put("barraProgresso",
-                new Double[]{ 5000.0, 4500.0, 4834.67});
-            viagens.add(item);
-            return viagens;
+        }
+        return viagens;
     }
 
     @Override
@@ -177,5 +168,11 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
             return true;
         }
         return false;
+    }
+
+    @Override
+    protected void onDestroy() {
+        dao.close();
+        super.onDestroy();
     }
 }

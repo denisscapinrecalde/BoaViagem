@@ -6,30 +6,33 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489441590500"
+    timestamp="1489527688520"
     token="9161912800342129678"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="230" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="26" />
     <task
         name="verifier"
-        duration="0" />
+        duration="9" />
 
+    <artifact
+        location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Android\Workspace\BoaViagem\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1489430993903"
+        timestamp="1489517760583"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -70,22 +73,38 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489441531053"
+        timestamp="1489524127027"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489441590500"
+        timestamp="1489525934164"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1489527486650"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Android\Workspace\BoaViagem\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1489527688520"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Android\Workspace\BoaViagem\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Android\Workspace\BoaViagem\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

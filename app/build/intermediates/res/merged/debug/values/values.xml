@@ -124,6 +124,7 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="categoria_alimentacao">#f89fa0</color>
+    <color name="categoria_combustivel">#680005</color>
     <color name="categoria_hospedagem">#dc6f74</color>
     <color name="categoria_outros">#d5acad</color>
     <color name="categoria_transporte">#cc000a</color>
@@ -452,23 +453,35 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="alimentacao">Alimentação</string>
     <string name="app_name">Boa Viagem</string>
+    <string name="barra_progresso_vo">barraProgresso</string>
     <string name="categoria">Categoria</string>
+    <string name="combustivel">Combustível</string>
     <string name="configuracoes">Configurações</string>
-    <string name="confirmacao_exclusao_viagem">a viagem?</string>
+    <string name="confirmacao_exclusao_viagem">Deseja excluir a viagem?</string>
     <string name="data">Data</string>
     <string name="data_da_chegada">Data da Chegada</string>
     <string name="data_da_saida">Data da Saída</string>
+    <string name="data_vo">data</string>
     <string name="descricao">Descrição</string>
     <string name="destino">Destino</string>
+    <string name="destino_vo">destino</string>
     <string name="editar">Editar</string>
     <string name="entrar">Entrar</string>
     <string name="erro_autenticacao">Falha de autenticação</string>
+    <string name="erro_salvar">Erro ao salvar informação</string>
     <string name="gastei">Gastei!</string>
+    <string name="gasto_excluida_sucesso">Gasto removido com sucesso</string>
+    <string name="gasto_total_vo">Gasto Total R$ </string>
     <string name="gastos_realizados">Gastos Realizados</string>
+    <string name="hospedagem">Hospedagem</string>
+    <string name="id_vo">id</string>
+    <string name="imagem_vo">imagem</string>
     <string name="informe_valor_limite">Informe o valor limite</string>
     <string name="lazer">Lazer</string>
     <string name="local">Local</string>
+    <string name="manter_conectado">Mantenha-me conectado</string>
     <string name="minhas_viagens">Minhas Viagens</string>
     <string name="modo_viagem">Modo Viagem</string>
     <string name="modo_viagem_sumario">Modo viagem sumário</string>
@@ -478,8 +491,10 @@
     <string name="novo_gasto">Novo Gasto</string>
     <string name="opcoes">Opções</string>
     <string name="orcamento">Orçamento</string>
+    <string name="outros">Outros</string>
     <string name="preferencias">Preferencias</string>
     <string name="quantidade_de_pessoas">Quantidade de Pessoas</string>
+    <string name="registro_salvo">Registro salvo com sucesso</string>
     <string name="remover">Remover</string>
     <string name="sair">Sair</string>
     <string name="salvar">Salvar</string>
@@ -489,10 +504,13 @@
     <string name="sim">Sim</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tipo_da_viagem">Tipo da Viagem</string>
+    <string name="total_vo">total</string>
+    <string name="transporte">Transporte</string>
     <string name="usuario">Usuário</string>
     <string name="valor">Valor</string>
     <string name="valor_limite">Valor Limite</string>
     <string name="valor_limite_sumario">Valor limite sumário</string>
+    <string name="viagem_excluida_sucesso">Viagem removida com sucesso</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

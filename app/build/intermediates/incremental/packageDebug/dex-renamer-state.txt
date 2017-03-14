@@ -1,4 +1,4 @@
-#Mon Mar 13 18:46:32 BRT 2017
+#Tue Mar 14 18:15:20 BRT 2017
 base.0=C\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_70ab7a4d7de263bf526fd9e6b2f5772aeef4c37a
 renamed.1=classes2.dex
 renamed.0=classes.dex

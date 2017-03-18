@@ -13,6 +13,11 @@ public class Viagem {
     private Double orcamento;
     private Integer quantidadePessoas;
 
+    @Override
+    public String toString() {
+        return destino;
+    }
+
     public Viagem(){}
 
     public Viagem(Long id, String destino, Integer tipoViagem,

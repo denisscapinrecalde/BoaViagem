@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gasto_menu.xml",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\menu\\gasto_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dashbord_menu.xml",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\menu\\dashbord_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\menu\\viagem_menu.xml",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\menu\\viagem_menu.xml"
+    }
+]

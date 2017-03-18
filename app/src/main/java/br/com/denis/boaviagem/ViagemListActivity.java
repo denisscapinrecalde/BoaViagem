@@ -113,6 +113,13 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
         return builder.create();
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        finish();
+        startActivity(getIntent());
+    }
+
     private AlertDialog criaAlertDialog() {
         final CharSequence[] items = {
                 getString(R.string.editar),
@@ -136,9 +143,9 @@ public class ViagemListActivity extends ListActivity implements AdapterView.OnIt
             Map<String, Object> item = new HashMap<String, Object>();
             item.put(getText(R.string.id_vo).toString(), viagem.getId().toString());
             if (viagem.getTipoViagem() == Constantes.VIAGEM_LAZER) {
-                item.put(getText(R.string.imagem_vo).toString(), R.drawable.lazer);
+                item.put(getText(R.string.imagem_vo).toString(), R.drawable.list_controller);
             } else {
-                item.put(getText(R.string.imagem_vo).toString(), R.drawable.negocios);
+                item.put(getText(R.string.imagem_vo).toString(), R.drawable.list_brief);
             }
             item.put(DatabaseHelper.Viagem.DESTINO, viagem.getDestino());
             item.put(getText(R.string.data_vo).toString(),

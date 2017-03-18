@@ -14,13 +14,18 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
 
 import br.com.denis.boaviagem.dao.BoaViagemDAO;
 import br.com.denis.boaviagem.domain.Gasto;
+import br.com.denis.boaviagem.domain.Viagem;
 import br.com.denis.boaviagem.helper.Constantes;
 
 public class GastoActivity extends Activity {
@@ -28,8 +33,9 @@ public class GastoActivity extends Activity {
     private int ano, mes, dia;
     private Button dataGastoButton;
     private Date dataGasto;
-    private Spinner categoria;
+    private Spinner categoria, viagem;
     private EditText local, descricao, valor;
+    private TextView textViagem;
     private String viagemId;
     private BoaViagemDAO dao;
 
@@ -37,6 +43,10 @@ public class GastoActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gasto);
+
+        dao = new BoaViagemDAO(this);
+
+        viagemId = getIntent().getStringExtra(Constantes.VIAGEM_ID);
 
         Calendar dataAtual = Calendar.getInstance();
         ano = dataAtual.get(Calendar.YEAR);
@@ -47,6 +57,16 @@ public class GastoActivity extends Activity {
         dataGastoButton = (Button)findViewById(R.id.data);
         dataGastoButton.setText(dia+"/"+(mes+1)+"/"+ano);
 
+        viagem = (Spinner) findViewById(R.id.viagem);
+        if(viagemId==null) {
+            ArrayAdapter<Viagem> adapterViagens = new ArrayAdapter<Viagem>(this, android.R.layout.simple_spinner_dropdown_item, dao.listarViagens());
+            viagem.setAdapter(adapterViagens);
+        }else{
+            textViagem = (TextView)findViewById(R.id.textViagem);
+            viagem.setVisibility(View.GONE);
+            textViagem.setVisibility(View.GONE);
+        }
+
         ArrayAdapter<CharSequence> adapter =
                 ArrayAdapter.createFromResource(this, R.array.categoria_gasto, android.R.layout.simple_spinner_dropdown_item);
         categoria = (Spinner) findViewById(R.id.categoria);
@@ -55,10 +75,6 @@ public class GastoActivity extends Activity {
         local = (EditText) findViewById(R.id.local);
         descricao = (EditText) findViewById(R.id.descricao);
         valor = (EditText) findViewById(R.id.valor);
-
-        viagemId = getIntent().getStringExtra(Constantes.VIAGEM_ID);
-
-        dao = new BoaViagemDAO(this);
     }
 
     @Override
@@ -107,27 +123,43 @@ public class GastoActivity extends Activity {
     };
 
     public void registrarGasto(View view) {
-        Gasto gasto = popularGasto();
-        long resultado = dao.persistirGasto(gasto);
-        if(resultado != -1 ){
-            Toast.makeText(this, getString(R.string.registro_salvo),
-                    Toast.LENGTH_SHORT).show();
-            finish();
+        if(validarCamposObrigatorios().isEmpty()) {
+            Gasto gasto = popularGasto();
+            long resultado = dao.persistirGasto(gasto);
+            if (resultado != -1) {
+                Toast.makeText(this, getString(R.string.registro_salvo),
+                        Toast.LENGTH_SHORT).show();
+                finish();
+            } else {
+                Toast.makeText(this, getString(R.string.erro_salvar),
+                        Toast.LENGTH_SHORT).show();
+            }
         }else{
-            Toast.makeText(this, getString(R.string.erro_salvar),
-                    Toast.LENGTH_SHORT).show();
+            for(int id : validarCamposObrigatorios()){
+                ((EditText)findViewById(id)).setError("Campo obrigatório");
+            }
         }
+    }
+
+    private List<Integer> validarCamposObrigatorios(){
+        List<Integer> ids = new ArrayList<Integer>();
+        if(valor.getText().toString().isEmpty())ids.add(R.id.valor);
+        if(descricao.getText().toString().isEmpty())ids.add(R.id.descricao);
+        if(local.getText().toString().isEmpty())ids.add(R.id.local);
+        return ids;
     }
 
     private Gasto popularGasto(){
         Gasto gasto = new Gasto();
-        //gasto.setId(null);//refatorar quando incluir edicao em gasto
+        // TODO refatorar quando incluir edicao em
+        // gasto gasto.setId(null);
         gasto.setCategoria(categoria.getSelectedItem().toString());
         gasto.setData(dataGasto);
         gasto.setDescricao(descricao.getText().toString());
         gasto.setLocal(local.getText().toString());
         gasto.setValor(Double.parseDouble(valor.getText().toString()));
-        gasto.setViagemId(Integer.parseInt(viagemId));
+        if(viagemId!=null)gasto.setViagemId(Integer.parseInt(viagemId));
+        else gasto.setViagemId(((Viagem)viagem.getSelectedItem()).getId().intValue());
         return gasto;
     }
 }

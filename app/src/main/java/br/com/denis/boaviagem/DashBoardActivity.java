@@ -10,12 +10,17 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import br.com.denis.boaviagem.dao.BoaViagemDAO;
+
 public class DashBoardActivity extends Activity {
+
+    BoaViagemDAO dao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dashboard);
+        dao = new BoaViagemDAO(this);
     }
 
     @Override
@@ -39,10 +44,18 @@ public class DashBoardActivity extends Activity {
                 startActivity(new Intent(this, ViagemActivity.class));
                 break;
             case R.id.novo_gasto:
-                startActivity(new Intent(this, GastoActivity.class));
+                if(dao.listarViagens().size()>0) {
+                    startActivity(new Intent(this, GastoActivity.class));
+                }else{
+                    Toast.makeText(this, "Nenhuma viagem cadastrada", Toast.LENGTH_SHORT).show();
+                }
                 break;
             case R.id.minhas_viagens:
-                startActivity(new Intent(this, ViagemListActivity.class));
+                if(dao.listarViagens().size()>0) {
+                    startActivity(new Intent(this, ViagemListActivity.class));
+                }else{
+                    Toast.makeText(this, "Nenhuma viagem cadastrada", Toast.LENGTH_SHORT).show();
+                }
                 break;
             case R.id.configuracoes:
                 startActivity(

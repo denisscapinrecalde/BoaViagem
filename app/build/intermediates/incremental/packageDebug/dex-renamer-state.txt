@@ -1,7 +1,7 @@
-#Tue Mar 14 18:15:20 BRT 2017
-base.0=C\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_70ab7a4d7de263bf526fd9e6b2f5772aeef4c37a
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0efe135e29ee2ce3a10cd2033d660d06a3194607\\classes.dex
-base.1=C\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0efe135e29ee2ce3a10cd2033d660d06a3194607
-file.0=C\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_70ab7a4d7de263bf526fd9e6b2f5772aeef4c37a\\classes.dex
+#Sat Mar 18 17:15:36 BRT 2017
+base.0=D\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a080a5832de3b24269fe02e73be70eb298e0ed1e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8ebf8cdab7ca2cd208b0eded6770950545770cee\\classes.dex
+base.1=D\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8ebf8cdab7ca2cd208b0eded6770950545770cee
+file.0=D\:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a080a5832de3b24269fe02e73be70eb298e0ed1e\\classes.dex

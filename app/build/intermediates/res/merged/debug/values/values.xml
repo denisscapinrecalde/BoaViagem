@@ -511,6 +511,8 @@
     <string name="valor_limite">Valor Limite</string>
     <string name="valor_limite_sumario">Valor limite sumário</string>
     <string name="viagem_excluida_sucesso">Viagem removida com sucesso</string>
+    <string name="viagem_sipn">Viagem</string>
+    <string name="viagem_spinner">Viagem</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

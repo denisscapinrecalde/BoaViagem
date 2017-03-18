@@ -61,6 +61,8 @@
     <string name="hospedagem">Hospedagem</string>
     <string name="outros">Outros</string>
     <string name="gasto_excluida_sucesso">Gasto removido com sucesso</string>
+    <string name="viagem_sipn">Viagem</string>
+    <string name="viagem_spinner">Viagem</string>
 
     <string-array name="categoria_gasto">
         <item>Alimentação</item>

@@ -22,8 +22,10 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 import br.com.denis.boaviagem.dao.BoaViagemDAO;
 import br.com.denis.boaviagem.domain.Viagem;
@@ -189,16 +191,30 @@ public class ViagemActivity extends Activity implements DialogInterface.OnClickL
     };
 
     public void salvarViagem(View view) {
-        Viagem viagem = popularViagem();
-        long resultado = dao.persistirViagem(viagem);
-        if(resultado != -1 ){
-            Toast.makeText(this, getString(R.string.registro_salvo),
-                    Toast.LENGTH_SHORT).show();
-            finish();
+        if(validarCamposObrigatorios().isEmpty()) {
+            Viagem viagem = popularViagem();
+            long resultado = dao.persistirViagem(viagem);
+            if (resultado != -1) {
+                Toast.makeText(this, getString(R.string.registro_salvo),
+                        Toast.LENGTH_SHORT).show();
+                finish();
+            } else {
+                Toast.makeText(this, getString(R.string.erro_salvar),
+                        Toast.LENGTH_SHORT).show();
+            }
         }else{
-            Toast.makeText(this, getString(R.string.erro_salvar),
-                    Toast.LENGTH_SHORT).show();
+            for(int id : validarCamposObrigatorios()){
+                ((EditText)findViewById(id)).setError("Campo obrigatório");
+            }
         }
+    }
+
+    private List<Integer> validarCamposObrigatorios(){
+        List<Integer> ids = new ArrayList<Integer>();
+        if(destino.getText().toString().isEmpty())ids.add(R.id.destino);
+        if(quantidadePessoas.getText().toString().isEmpty())ids.add(R.id.quantidadePessoas);
+        if(orcamento.getText().toString().isEmpty())ids.add(R.id.orcamento);
+        return ids;
     }
 
     private Viagem popularViagem(){

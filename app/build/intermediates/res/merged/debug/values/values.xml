@@ -471,6 +471,7 @@
     <string name="entrar">Entrar</string>
     <string name="erro_autenticacao">Falha de autenticação</string>
     <string name="erro_salvar">Erro ao salvar informação</string>
+    <string name="falha_ao_autenticar">Falha ao autenticar</string>
     <string name="gastei">Gastei!</string>
     <string name="gasto_excluida_sucesso">Gasto removido com sucesso</string>
     <string name="gasto_total_vo">Gasto Total R$ </string>

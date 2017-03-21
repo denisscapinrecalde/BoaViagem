@@ -3,21 +3,210 @@
 
     <item
         is-multidex="true"
-        jar="D:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Denis Scapin\.android\build-cache\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6a13560035d6ae9d7d208e85818e558bf38813d0">
-        <dex dex="D:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebf8cdab7ca2cd208b0eded6770950545770cee\classes.dex" />
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6982f2168df1c117107af526998d25550888022c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsr305-1.3.9_36686692f09b4c8c272ca32f4e146468b3222604\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\87e8940319ca3da1d84ceb97f091dfd12628fddb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed66093d9baf036bb410ca708247969be0e0d72a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-api-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="22aeef8463139fde1af1dcb69c5ecafb4142d340">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-api-client-1.22.0_408eb3abcba571ca8ab0903c93df83ae10ba49b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.1.3_59451c9c7460e412387a1941de084c1b7d22c51d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-http-client-jdo-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54e8b0a9389b7ffe963263eba17c642160ba88db">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-http-client-jdo-1.22.0_005936be9ad6bf55b5e5111d7221ab43b1ee3a29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\eed1d57acea17f0cc54978365895e440b683aabd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c09c4589255b7c259efbe722f5cb40cd7d8e7cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\jdo2-api-2.3-eb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec6b839251fb235a86ccd23adc4fc62dab07a7d8">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\jdo2-api-2.3-eb_3117988f19af32639fd87311b2eb6369686de1b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-http-client-gson-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e592b4cdae59a6c0097fe0e804e567c25e03e91a">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-http-client-gson-1.22.0_a96511432b97c23b436e8800053090ed18ffdb2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-api-services-calendar-v3-rev238-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="10fd922e6224be36d2df5da939073896a798b808">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-api-services-calendar-v3-rev238-1.22.0_c3eee65143fd0052830d07bcce430b4983fddf0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\a4cd70d3087019a01d48313c292cfdce749bee59\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_70bcbfe3e1b466e19008ca7164d6b171a5448faf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="11a6e81ea090f65cb8e903fe4c3e91ce8a465b3d">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_70ab7a4d7de263bf526fd9e6b2f5772aeef4c37a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\6159a69df1624623b0048e7f392e50696743a94c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84bcfbf12bc1238eb9b2ce13258f1fdf4a4dd6bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\e70032e1e642d7d836634b5e1263e7e62271016a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8a2473e42f5f4aafaa77e5efd4e973247189968\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\gson-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.1_0ee5c0a5cfdd9c7f20583b7e736d36dce015fd72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9b85308a0eb705c2e1314898e228aaeb586eff73">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-http-client-jackson2-1.22.0_5a4ea443702b80c50672e1f14e88105e0ddf7ea8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\ea433e8e079f88fb5fabcc915beb0e51b36da0c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d715349f54e6e21b8614f4b01eaf458722767cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="D:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a080a5832de3b24269fe02e73be70eb298e0ed1e\classes.dex" />
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0efe135e29ee2ce3a10cd2033d660d06a3194607\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="996cf55e05a6179a16fb13203b7771c87342bac5">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-oauth-client-1.22.0_74fb5758d34cdbbd6577c567e7ed965dd7869f24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-api-client-android-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec45ce6d2af4b1c5ec9977e2648f6a85e0b3d70c">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-api-client-android-1.22.0_50e3158bd4bd2a84b2281909d3b32e5d53732ac1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Workspace\BoaViagem\app\build\libs\google-http-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3451dc7c3e18faaaa38821311e4d01336872700e">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-http-client-1.22.0_1c4837d1caab3e454173fcda24c2db6ea57ed565\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\aaebae3b2319933d93d8f1757fc1195dac77b38a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a913b88bc8429405cf3c4a5145918368dd8ec13c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Denis Scapin\.android\build-cache\3737c2a96fb3b902272b4c807499e63df1335051\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Android\Workspace\BoaViagem\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f6d95463f1a8c096d6d9f472d53bfc917064f37c\classes.dex" />
     </item>
 
 </items>

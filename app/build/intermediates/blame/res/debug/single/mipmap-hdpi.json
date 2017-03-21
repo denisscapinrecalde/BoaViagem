@@ -1,14 +1,14 @@
 [
     {
-        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\boa_viagem.png",
-        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\mipmap-hdpi\\boa_viagem.png"
+        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\boa_viagem.png",
+        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\mipmap-hdpi\\boa_viagem.png"
     },
     {
-        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }
 ]

@@ -8,6 +8,11 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/boa_viagem"
@@ -34,8 +39,7 @@
             android:authorities="br.com.denis.boaviagem.provider"
             android:exported="true"
             android:readPermission="br.com.denis.boaviagem.provider.permission.READ"
-            android:writePermission="br.com.denis.boaviagem.provider.permission.WRITE" >
-        </provider>
+            android:writePermission="br.com.denis.boaviagem.provider.permission.WRITE" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

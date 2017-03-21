@@ -3,7 +3,7 @@
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
-    <string name="erro_autenticacao">Falha de autenticação</string>
+    <string name="erro_autenticacao">Usuário ou senha inválidos</string>
     <string name="novo_gasto">Novo Gasto</string>
     <string name="nova_viagem">Nova Viagem</string>
     <string name="minhas_viagens">Minhas Viagens</string>
@@ -63,6 +63,7 @@
     <string name="gasto_excluida_sucesso">Gasto removido com sucesso</string>
     <string name="viagem_sipn">Viagem</string>
     <string name="viagem_spinner">Viagem</string>
+    <string name="falha_ao_autenticar">Falha ao autenticar</string>
 
     <string-array name="categoria_gasto">
         <item>Alimentação</item>

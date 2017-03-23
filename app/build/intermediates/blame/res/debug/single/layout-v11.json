@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\layout-v11\\notification_media_action.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     }
 ]

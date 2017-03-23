@@ -7,8 +7,10 @@ import android.app.Dialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -27,6 +29,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import br.com.denis.boaviagem.calendar.CalendarService;
 import br.com.denis.boaviagem.dao.BoaViagemDAO;
 import br.com.denis.boaviagem.domain.Viagem;
 import br.com.denis.boaviagem.helper.Constantes;
@@ -42,6 +45,7 @@ public class ViagemActivity extends Activity implements DialogInterface.OnClickL
     private String id;
     private BoaViagemDAO dao;
     private AlertDialog dialogConfirmacao;
+    private CalendarService calendarService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +81,16 @@ public class ViagemActivity extends Activity implements DialogInterface.OnClickL
         if(id != null){
             prepararEdicao();
         }
+        calendarService = criarCalendarService();
+    }
+
+    private CalendarService criarCalendarService() {
+        SharedPreferences preferencias =
+                getSharedPreferences(Constantes.PREFERENCIAS, MODE_PRIVATE);
+        String nomeConta = preferencias.getString(Constantes.NOME_CONTA, null);
+        String tokenAcesso =
+                preferencias.getString(Constantes.TOKEN_ACESSO, null);
+        return new CalendarService(nomeConta, tokenAcesso);
     }
 
     @Override
@@ -197,6 +211,9 @@ public class ViagemActivity extends Activity implements DialogInterface.OnClickL
             if (resultado != -1) {
                 Toast.makeText(this, getString(R.string.registro_salvo),
                         Toast.LENGTH_SHORT).show();
+                if(viagem.getId()==null){
+                    new Task().execute(viagem);
+                }
                 finish();
             } else {
                 Toast.makeText(this, getString(R.string.erro_salvar),
@@ -206,6 +223,15 @@ public class ViagemActivity extends Activity implements DialogInterface.OnClickL
             for(int id : validarCamposObrigatorios()){
                 ((EditText)findViewById(id)).setError("Campo obrigatório");
             }
+        }
+    }
+
+    private class Task extends AsyncTask<Viagem, Void, Void> {
+        @Override
+        protected Void doInBackground(Viagem... viagens) {
+            Viagem viagem = viagens[0];
+            calendarService.criarEvento(viagem);
+            return null;
         }
     }
 

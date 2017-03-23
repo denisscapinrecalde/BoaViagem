@@ -1,174 +1,174 @@
 [
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\settings.png"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_brief.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\list_brief.png"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_controller.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\list_controller.png"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_controller.png",
-        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\list_controller.png"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
-        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\settings.png"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compass.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\compass.png"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_brief.png",
-        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\list_brief.png"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
-        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\briefcase.png",
-        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\briefcase.png"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\briefcase.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\briefcase.png"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compass.png",
-        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\compass.png"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bank.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\bank.png"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "D:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Denis Scapin\\.android\\build-cache\\8ac39afd3a567b32edc705231cd17f88d2c4e2cf\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bank.png",
-        "source": "C:\\Android\\Workspace\\BoaViagem\\app\\src\\main\\res\\drawable\\bank.png"
+        "merged": "D:\\Android\\Workspace\\BoaViagem\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Denis\\.android\\build-cache\\c304c47d4889546991a4d32e28cd120de8bf5da8\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     }
 ]
